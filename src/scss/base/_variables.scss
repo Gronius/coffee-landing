@@ -1,14 +1,14 @@
 // ===== КОЛЬОРИ =====
-$clr-bg:          hsl(240, 10%, 4%);
-$clr-bg-card:     hsl(240, 6%, 10%);
-$clr-foreground:  hsl(0, 0%, 98%);
-$clr-muted:       hsl(240, 5%, 65%);
-$clr-border:      hsl(240, 4%, 16%);
+// $clr-bg:           #3b141c;
+// $clr-bg-card:     hsl(240, 6%, 10%);
+// $clr-foreground:  hsl(0, 0%, 98%);
+// $clr-muted:       hsl(240, 5%, 65%);
+// $clr-border:      hsl(240, 4%, 16%);
 
-$clr-primary:     hsl(262, 83%, 58%);
-$clr-primary-fg:  hsl(0, 0%, 100%);
-$clr-secondary:   hsl(280, 65%, 60%);
-$clr-accent:      hsl(330, 81%, 60%);
+// $clr-primary:     hsl(262, 83%, 58%);
+// $clr-primary-fg:  hsl(0, 0%, 100%);
+// $clr-secondary:   hsl(280, 65%, 60%);
+// $clr-accent:      hsl(330, 81%, 60%);
 
   /* color */
   $white-color: #fff;
@@ -27,11 +27,13 @@ $gradient-warm:    linear-gradient(135deg, hsl(25, 95%, 53%), hsl(45, 93%, 47%))
 $shadow-glow: 0 0 30px -5px hsla(262, 83%, 58%, 0.4);
 
 // ===== ШРИФТИ =====
-$ff-base: 'Inter', system-ui, -apple-system, sans-serif;
-$fw-regular: 400;
-$fw-medium:  500;
-$fw-semi:    600;
-$fw-bold:    700;
+$ff-base: 'Poppins', system-ui, -apple-system, sans-serif;
+
+  /* font weight */
+  $font-weight-normal: 400;
+  $font-weight-medium: 500;
+  $font-weight-semibold: 600;
+  $font-weight-bold: 700;
 
 // ===== BREAKPOINTS =====
 $breakpoints: (
@@ -56,3 +58,13 @@ $radius-full: 9999px;
 $transition-fast: 0.2s ease;
 $transition-base: 0.3s ease;
 $transition-slow: 0.5s ease;
+
+  /* font size */
+  $font-size-s: 0.9rem;
+  $font-size-n: 1rem;
+  $font-size-m: 1.12rem;
+  $font-size-l: 1.5rem;
+  $font-size-xl: 2rem;
+  $font-size-xxl: 2.3rem;
+
+    $site-max-width: 1300px;

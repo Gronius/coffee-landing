@@ -15,8 +15,8 @@ body {
   font-family: $ff-base;
   font-size: 16px;
   line-height: 1.6;
-  color: $clr-foreground;
-  background-color: $clr-bg;
+  color: $white-color;
+  background-color: $primary-color;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   overflow-x: hidden;
@@ -48,4 +48,39 @@ ul, ol {
 input, textarea {
   font: inherit;
   color: inherit;
+}
+
+html{
+  scroll-behavior: smooth;
+}
+button {
+  cursor: pointer;
+  border: none;
+  background: none;
+}
+
+img {
+  width: 100%;
+}
+
+.section-content {
+  margin: 0 auto;
+  padding: 0 20px;
+  max-width: $site-max-width;
+}
+.section-title {
+  text-align: center;
+  padding: 60px 0 100px;
+  text-transform: uppercase;
+  font-size: $font-size-xl;
+  font-weight: $font-weight-semibold;
+}
+.section-title::after {
+  content: "";
+  width: 80px;
+  height: 5px;
+  display: block;
+  margin: 10px auto 0;
+  border-radius: 8px;
+  background: $secondary-color;
 }

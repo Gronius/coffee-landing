@@ -105,3 +105,66 @@
     margin-top: 0.25rem;
   }
 }
+
+/* hero section styling*/
+
+.hero__section {
+  min-height: 100vh;
+  background: $primary-color;
+
+  .section__content {
+    display: flex;
+    align-items: center;
+    min-height: 100vh;
+    color: $white-color;
+    justify-content: space-between;
+  }
+  .title {
+    font-size: var(--font-size-xxl);
+    color: $secondary-color;
+    font-family: "Miniver", sans-serif;
+  }
+  .subtitle {
+    margin-top: 8px;
+    max-width: 70%;
+    font-size: var(--font-size-xl);
+    font-weight: var(--font-weight-semibold);
+  }
+  .hero__details .description {
+    max-width: 70%;
+    margin: 24px 0 40px;
+    font-size: var(--font-size-m);
+  }
+  .buttons {
+    display: flex;
+    gap: 23px;
+  }
+  .button {
+    padding: 10px 26px;
+    border: 2px solid transparent;
+    color: var(--primary-color);
+    border-radius: var(--border-radius-m);
+    background: var(--secondary-color);
+    font-weight: var(--font-weight-medium);
+    transition: 0.3s ease;
+  }
+  .button:hover,
+  .contact-us {
+    color: var(--white-color);
+    border-color: var(--white-color);
+    background: transparent;
+  }
+  .contact-us:hover {
+    color: var(--primary-color);
+    border-color: var(--secondary-color);
+    background: var(--secondary-color);
+  }
+
+  .hero-image-wrapper {
+    max-width: 500px;
+    margin-right: 30px;
+  }
+  .hero__details {
+    padding-left: 20px;
+  }
+}
