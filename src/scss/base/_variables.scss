@@ -10,6 +10,14 @@ $clr-primary-fg:  hsl(0, 0%, 100%);
 $clr-secondary:   hsl(280, 65%, 60%);
 $clr-accent:      hsl(330, 81%, 60%);
 
+  /* color */
+  $white-color: #fff;
+  $dark-color: #252525;
+  $primary-color: #3b141c;
+  $secondary-color: #f3961c;
+  $light-pink-color: #f0e8e8;
+  $medium-grey-color: #808080;
+
 // ===== ГРАДІЄНТИ =====
 $gradient-primary: linear-gradient(135deg, $clr-primary, $clr-secondary);
 $gradient-accent:  linear-gradient(135deg, $clr-accent, hsl(350, 80%, 65%));
