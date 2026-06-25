@@ -1,70 +1,35 @@
-// ===== КОЛЬОРИ =====
-// $clr-bg:           #3b141c;
-// $clr-bg-card:     hsl(240, 6%, 10%);
-// $clr-foreground:  hsl(0, 0%, 98%);
-// $clr-muted:       hsl(240, 5%, 65%);
-// $clr-border:      hsl(240, 4%, 16%);
+/* Colors */
+$color-white: #fff;
+$color-dark: #252525;
+$color-primary: #3b141c;
+$color-secondary: #f3961c;
+$color-light-pink: #f0e8e8;
+$color-medium-grey: #808080;
 
-// $clr-primary:     hsl(262, 83%, 58%);
-// $clr-primary-fg:  hsl(0, 0%, 100%);
-// $clr-secondary:   hsl(280, 65%, 60%);
-// $clr-accent:      hsl(330, 81%, 60%);
+/* Font sizes */
+$font-size-s: 0.9rem;
+$font-size-n: 1rem;
+$font-size-m: 1.125rem;
+$font-size-l: 1.5rem;
+$font-size-xl: 2rem;
+$font-size-xxl: 2.3rem;
 
-  /* color */
-  $white-color: #fff;
-  $dark-color: #252525;
-  $primary-color: #3b141c;
-  $secondary-color: #f3961c;
-  $light-pink-color: #f0e8e8;
-  $medium-grey-color: #808080;
+/* Font weights */
+$font-weight-normal: 400;
+$font-weight-medium: 500;
+$font-weight-semibold: 600;
+$font-weight-bold: 700;
 
-// ===== ГРАДІЄНТИ =====
-$gradient-primary: linear-gradient(135deg, $clr-primary, $clr-secondary);
-$gradient-accent:  linear-gradient(135deg, $clr-accent, hsl(350, 80%, 65%));
-$gradient-warm:    linear-gradient(135deg, hsl(25, 95%, 53%), hsl(45, 93%, 47%));
-
-// ===== ТІНІ =====
-$shadow-glow: 0 0 30px -5px hsla(262, 83%, 58%, 0.4);
-
-// ===== ШРИФТИ =====
-$ff-base: 'Poppins', system-ui, -apple-system, sans-serif;
-
-  /* font weight */
-  $font-weight-normal: 400;
-  $font-weight-medium: 500;
-  $font-weight-semibold: 600;
-  $font-weight-bold: 700;
-
-// ===== BREAKPOINTS =====
-$breakpoints: (
-  sm: 576px,
-  md: 768px,
-  lg: 1024px,
-  xl: 1280px,
-);
-
-// ===== КОНТЕЙНЕР =====
-$container-max: 1200px;
-$container-pad: 16px;
-
-// ===== РАДІУСИ =====
+/* Border radius */
 $radius-sm: 8px;
-$radius-md: 12px;
-$radius-lg: 16px;
-$radius-xl: 24px;
-$radius-full: 9999px;
+$radius-md: 30px;
+$radius-circle: 50%;
 
-// ===== TRANSITIONS =====
-$transition-fast: 0.2s ease;
-$transition-base: 0.3s ease;
-$transition-slow: 0.5s ease;
+/* Layout */
+$container-width: 1300px;
 
-  /* font size */
-  $font-size-s: 0.9rem;
-  $font-size-n: 1rem;
-  $font-size-m: 1.12rem;
-  $font-size-l: 1.5rem;
-  $font-size-xl: 2rem;
-  $font-size-xxl: 2.3rem;
+/* Fonts */
+$font-family-base: "Poppins", sans-serif;
+$font-family-accent: "Miniver", sans-serif;
 
-    $site-max-width: 1300px;
+$transition-base: all 0.3s;

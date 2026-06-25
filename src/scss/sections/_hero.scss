@@ -1,0 +1,68 @@
+@use '../base/variables' as *;
+/* hero section styling*/
+
+.hero {
+  min-height: 100vh;
+  background: $color-primary;
+
+  &__content {
+    display: flex;
+    align-items: center;
+    min-height: 100vh;
+    color: $color-white;
+    justify-content: space-between;
+  }
+  &__title {
+    font-size: $font-size-xxl;
+    color: $color-secondary;
+    font-family: $font-family-accent;
+  }
+  &__subtitle {
+    margin-top: 8px;
+    max-width: 70%;
+    font-size: $font-size-xl;
+    font-weight: $font-weight-semibold;
+  }
+  &__description {
+    max-width: 70%;
+    margin: 24px 0 40px;
+    font-size: $font-size-m;
+  }
+  &__actions {
+    display: flex;
+    gap: 23px;
+  }
+  &__button {
+    padding: 10px 26px;
+    border: 2px solid transparent;
+    color: $color-primary;
+    border-radius: $radius-md;
+    background: $color-secondary;
+    font-weight: $font-weight-medium;
+    transition: 0.3s ease;
+  }
+  &__button:hover,
+  &__button--outline {
+    color: $color-white;
+    border-color: $color-white;
+    background: transparent;
+  }
+  &__button--outline:hover {
+    color: $color-primary;
+    border-color: $color-secondary;
+    background: $color-secondary;
+  }
+
+  &__image-wrapper {
+    max-width: 500px;
+    margin-right: 30px;
+    &--img{
+       width: 100%;
+    }
+
+  }
+
+  &__details {
+    padding-left: 20px;
+  }
+}

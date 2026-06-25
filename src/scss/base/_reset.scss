@@ -1,3 +1,5 @@
+@use "variables" as *;
+
 *,
 *::before,
 *::after {
@@ -12,11 +14,11 @@ html {
 }
 
 body {
-  font-family: $ff-base;
+  font-family: $font-family-base;
   font-size: 16px;
   line-height: 1.6;
-  color: $white-color;
-  background-color: $primary-color;
+  color: $color-white;
+  background-color: $color-secondary;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   overflow-x: hidden;
@@ -66,7 +68,7 @@ img {
 .section-content {
   margin: 0 auto;
   padding: 0 20px;
-  max-width: $site-max-width;
+  max-width: $container-width;
 }
 .section-title {
   text-align: center;
@@ -82,5 +84,5 @@ img {
   display: block;
   margin: 10px auto 0;
   border-radius: 8px;
-  background: $secondary-color;
+  background: $color-secondary;
 }

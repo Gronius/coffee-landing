@@ -1,21 +1,62 @@
-  <header id="home">
-    <nav class="navbar section__content">
+<header class="header" id="home">
+  <div class="container">
+    <nav class="header__nav">
 
-      <a href="#" class="nav-logo">
-        <img class="logo-img" src="img/images/logo-coffee.png" alt="" width="24"><span class="logo-text">Coffee</span>
-        <!-- <h2 class="logo-text">Coffee</h2> -->
+      <a href="#home" class="header__logo">
+        <img
+          src="./img/images/logo-coffee.png"
+          alt="Coffee logo"
+          class="header__logo-image"
+          width="32"
+          height="32"
+        >
+        <span class="header__logo-text">Coffee</span>
       </a>
-      <ul class="nav__menu">
-        <button id="menu-close-button" class="fas fa-times"></button>
-        <li class="nav__item"><a href="#" class="nav__link">Home</a></li>
-        <li class="nav__item"><a href="#about" class="nav__link">About</a></li>
-        <li class="nav__item"><a href="#menu" class="nav__link">Menu</a></li>
-        <li class="nav__item"><a href="#testimonials" class="nav__link">Testimonials</a></li>
-        <li class="nav__item"><a href="#gallery" class="nav__link">Gallery</a></li>
-        <li class="nav__item"><a href="#contacts" class="nav__link">Contacts</a></li>
-      </ul>
-      <button id="menu-open-button" class="fas fa-bars"></button>
-    </nav>
 
-  
-  </header>
+      <ul class="header__menu">
+        <li class="header__item">
+          <a href="#home" class="header__link">Home</a>
+        </li>
+
+        <li class="header__item">
+          <a href="#about" class="header__link">About</a>
+        </li>
+
+        <li class="header__item">
+          <a href="#menu" class="header__link">Menu</a>
+        </li>
+
+        <li class="header__item">
+          <a href="#testimonials" class="header__link">Testimonials</a>
+        </li>
+
+        <li class="header__item">
+          <a href="#gallery" class="header__link">Gallery</a>
+        </li>
+
+        <li class="header__item">
+          <a href="#contacts" class="header__link">Contacts</a>
+        </li>
+      </ul>
+
+      <button
+        class="header__toggle header__toggle--open"
+        id="menu-open-button"
+        type="button"
+        aria-label="Open menu"
+      >
+        <i class="fas fa-bars"></i>
+      </button>
+
+      <button
+        class="header__toggle header__toggle--close"
+        id="menu-close-button"
+        type="button"
+        aria-label="Close menu"
+      >
+        <i class="fas fa-times"></i>
+      </button>
+
+    </nav>
+  </div>
+</header>

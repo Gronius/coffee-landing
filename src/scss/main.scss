@@ -1,25 +1,25 @@
-// ===== BASE =====
-@import 'base/variables';
 
-// ===== UTILITIES (потрібні до компонентів для міксинів) =====
-@import 'utilities/mixins';
-@import 'utilities/animations';
 
-// ===== RESET =====
-@import 'base/reset';
-@import 'base/typography';
+@use "./base/variables";
+@use "./base/reset";
+@use "./base/typography";
+@use "./base/global";
 
-// ===== COMPONENTS =====
-@import 'components/buttons';
-@import 'components/inputs';
+@use "./utilities/mixins";
+@use "./utilities/animations";
 
-// ===== LAYOUT =====
-@import 'layout/header';
-@import 'layout/footer';
+@use "./layout/container";
+@use "./layout/header";
+@use "./layout/footer";
 
-// ===== PAGES =====
-@import 'pages/hero';
-@import 'pages/services';
-@import 'pages/portfolio';
-@import 'pages/process';
-@import 'pages/contact';
+@use "./components/buttons";
+@use "./components/inputs";
+@use "./components/section-title";
+@use "./components/social-links";
+
+@use "./sections/hero";
+@use "./sections/about";
+@use "./sections/menu";
+@use "./sections/testimonials";
+@use "./sections/gallery";
+@use "./sections/contact";
