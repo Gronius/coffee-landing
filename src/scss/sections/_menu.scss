@@ -1,0 +1,42 @@
+@use "../base/variables" as *;
+
+/* Menu section styling */
+.menu {
+  color: $color-white;
+  background: $color-dark;
+  padding: 50px 20px 100px;
+
+  &__title {
+    color: $color-white;
+  }
+
+  &__list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 110px;
+    align-items: center;
+    justify-content: space-between;
+  }
+  &__item {
+    display: flex;
+    align-items: center;
+    text-align: center;
+    flex-direction: column;
+    justify-content: space-between;
+    width: calc(100% / 3 - 110px);
+  }
+  &__image {
+    max-width: 83%;
+    aspect-ratio: 1;
+    margin-bottom: 15px;
+    object-fit: contain;
+  }
+  &__name {
+    margin: 12px 0;
+    font-size: $font-size-l;
+    font-weight: $font-weight-semibold;
+  }
+  &__text {
+    font-size: $font-size-m;
+  }
+}

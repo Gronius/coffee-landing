@@ -1,0 +1,17 @@
+@use "../base/variables" as *;
+
+.socials {
+  display: flex;
+  justify-content: center;
+  gap: 25px;
+
+  &__link {
+    color: $color-primary;
+    font-size: $font-size-l;
+    transition: color 0.2s ease;
+
+    &:hover {
+      color: $color-secondary;
+    }
+  }
+}
