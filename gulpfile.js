@@ -152,7 +152,7 @@ function serve() {
   watch(path.watch.js, js);
   watch(path.watch.img, images);
   watch(path.watch.videos, videos); 
-
+}
 
 const build = series(clean, parallel(html, scss, js, images, videos, fonts, vendorCss));
 const dev = series(build, serve);
