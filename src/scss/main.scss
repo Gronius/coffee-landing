@@ -1,4 +1,4 @@
-
+// @use "../../node_modules/swiper/swiper-bundle";
 
 @use "./base/variables";
 @use "./base/reset";
@@ -17,9 +17,15 @@
 @use "./components/section-title";
 @use "./components/social-links";
 
+
 @use "./sections/hero";
 @use "./sections/about";
 @use "./sections/menu";
 @use "./sections/testimonials";
+
 @use "./sections/gallery";
 @use "./sections/contact";
+
+
+
+

@@ -1,0 +1,27 @@
+[
+  {
+    "image": "img/images/user-1.jpg",
+    "name": "Sarah Johnson",
+    "feedback": "Loved the French roast. Perfectly balanced and rich. Will order again!"
+  },
+  {
+    "image": "img/images/user-2.jpg",
+    "name": "James Wilson",
+    "feedback": "Great espresso blend! Smooth and bold flavor. Fast shipping too!"
+  },
+  {
+    "image": "img/images/user-3.jpg",
+    "name": "Michael Brown",
+    "feedback": "Fantastic mocha flavor. Fresh and aromatic. Quick shipping!"
+  },
+  {
+    "image": "img/images/user-4.jpg",
+    "name": "Emily Harris",
+    "feedback": "Excellent quality! Fresh beans and quick delivery. Highly recommend."
+  },
+  {
+    "image": "img/images/user-5.jpg",
+    "name": "Anthony Thompson",
+    "feedback": "Best decaf I've tried! Smooth and flavorful. Arrived promptly."
+  }
+]

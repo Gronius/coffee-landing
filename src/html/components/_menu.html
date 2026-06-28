@@ -3,7 +3,12 @@
         <h2 class="section-title menu__title">Our Menu</h2>
         <div class="section-content">
           <ul class="menu__list">
-            <li class="menu__item">
+
+         @@loop("cards/_menu-card.html", "../data/menu.json")
+
+   
+
+            <!-- <li class="menu__item">
               <img src="img/images/hot-beverages.png" alt="Hot Beverages" class="menu__image">
               <h3 class="menu__name">Hot Beverages</h3>
               <p class="menu__text">Wide range of Steamig hot coffee to make yuo fresh and light</p>
@@ -32,7 +37,7 @@
               <img src="img/images/burger-frenchfries.png" alt="Hot Beverages" class="menu__image">
               <h3 class="menu__name">Burger & Frenchfries</h3>
               <p class="menu__text">Quick bites to satisfy your small size hunger</p>
-            </li>
+            </li> -->
           </ul>
         </div>
       </section>

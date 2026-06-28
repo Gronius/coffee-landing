@@ -1,0 +1,33 @@
+[
+  {
+    "image": "img/images/hot-beverages.png",
+    "title": "Hot Beverages",
+    "text": "Wide range of Steamig hot coffee to make yuo fresh and light"
+  },
+  {
+    "image": "img/images/cold-beverages.png",
+    "title": "Cold Beverages",
+    "text": "Creamy and frothy cold coffee to make you cool"
+  },
+  {
+    "image": "img/images/refreshment.png",
+    "title": "Hot Beverages",
+    "text": "Fruit and icy refreshing drink to make feel refresh"
+  },
+    {
+    "image": "img/images/special-combo.png",
+    "title": "Special Combo",
+    "text": "Your favorite eating and drinking combation"
+  },
+  {
+    "image": "img/images/desserts.png",
+    "title": "Dessert",
+    "text": "Satiate your palate and take you on a culinary treat"
+  },
+  {
+    "image": "img/images/burger-frenchfries.png",
+    "title": "Burger & Frenchfries",
+    "text": "Quick bites to satisfy your small size hunger"
+  }
+
+]

@@ -1,0 +1,27 @@
+<section class="testimonials" id="testimonials">
+
+    <div class="container">
+
+        <h2 class="section-title">
+            Testimonials
+        </h2>
+
+        <div class="testimonials__slider swiper" >
+
+            <div class="swiper-wrapper">
+
+                @@loop("cards/_testimonial-card.html", "../data/testimonial.json")
+
+            </div>
+
+            <div class="swiper-pagination"></div>
+
+            <div class="swiper-button-prev"></div>
+
+            <div class="swiper-button-next"></div>
+
+        </div>
+
+    </div>
+
+</section>

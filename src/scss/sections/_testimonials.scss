@@ -1,0 +1,57 @@
+@use "../base/variables" as *;
+
+.testimonials {
+  padding: 50px 0 100px;
+  background-color: $color-light-pink;
+
+  &__slider {
+    overflow: hidden;
+    margin: 0 60px 50px;
+  }
+
+  &__item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 35px;
+    text-align: center;
+    user-select: none;
+  }
+
+  &__image {
+    width: 180px;
+    height: 180px;
+    margin-bottom: 50px;
+    object-fit: cover;
+    border-radius: $radius-circle;
+  }
+
+  &__name {
+    margin-bottom: 16px;
+    font-size: $font-size-m;
+    font-weight: $font-weight-semibold;
+    color: $color-dark;
+  }
+
+  &__text {
+    line-height: 1.7;
+    font-style: italic;
+     color: $color-dark;
+  }
+
+  .swiper-pagination-bullet {
+    width: 15px;
+    height: 15px;
+    background: $color-primary;
+  }
+
+  .swiper-button-prev,
+  .swiper-button-next {
+    color: $color-secondary;
+    transition: $transition-base;
+
+    &:hover {
+      color: $color-primary;
+    }
+  }
+}

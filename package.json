@@ -8,8 +8,12 @@
     "deploy": "gulp build"
   },
   "devDependencies": {
+    "@babel/core": "^8.0.1",
+    "@babel/preset-env": "^8.0.2",
     "autoprefixer": "^10.4.27",
+    "babel-loader": "^10.1.1",
     "browser-sync": "^2.29.3",
+    "css-loader": "^7.1.4",
     "del": "^6.1.1",
     "gulp": "^4.0.2",
     "gulp-clean-css": "^4.3.0",
@@ -31,6 +35,12 @@
     "gulp-webp": "^4.0.1",
     "postcss": "^8.5.9",
     "sass": "^1.77.0",
+    "style-loader": "^4.0.0",
+    "webpack": "^5.108.1",
+    "webpack-cli": "^7.1.0",
     "webpack-stream": "^7.0.0"
+  },
+  "dependencies": {
+    "swiper": "^14.0.0"
   }
 }
