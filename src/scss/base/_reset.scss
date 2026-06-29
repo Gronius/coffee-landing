@@ -14,14 +14,20 @@ html {
 }
 
 body {
-  font-family: $font-family-base;
-  font-size: 16px;
-  line-height: 1.6;
-  color: $color-white;
-  background-color: $color-secondary;
+  overflow-x: hidden;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  overflow-x: hidden;
+}
+
+ul,
+ol {
+  list-style: none;
+}
+
+img {
+  display: block;
+  max-width: 100%;
+  height: auto;
 }
 
 a {
@@ -29,60 +35,14 @@ a {
   text-decoration: none;
 }
 
-img {
-  max-width: 100%;
-  height: auto;
-  display: block;
-}
-
 button {
-  background: none;
-  border: none;
-  cursor: pointer;
-  font: inherit;
-  color: inherit;
-}
-
-ul, ol {
-  list-style: none;
-}
-
-input, textarea {
-  font: inherit;
-  color: inherit;
-}
-
-html{
-  scroll-behavior: smooth;
-}
-button {
-  cursor: pointer;
   border: none;
   background: none;
+  cursor: pointer;
 }
 
-img {
-  width: 100%;
-}
-
-.section-content {
-  margin: 0 auto;
-  padding: 0 20px;
-  max-width: $container-width;
-}
-.section-title {
-  text-align: center;
-  padding: 60px 0 100px;
-  text-transform: uppercase;
-  font-size: $font-size-xl;
-  font-weight: $font-weight-semibold;
-}
-.section-title::after {
-  content: "";
-  width: 80px;
-  height: 5px;
-  display: block;
-  margin: 10px auto 0;
-  border-radius: 8px;
-  background: $color-secondary;
+input,
+textarea,
+button {
+  font: inherit;
 }

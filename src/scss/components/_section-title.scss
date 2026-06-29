@@ -2,11 +2,12 @@
 
 .section-title {
   font-size: $font-size-xl;
-  font-weight: $font-weight-bold;
+ font-weight: $font-weight-semibold;
   color: $color-dark;
+    text-transform: uppercase;
   text-align: center;
    padding: 60px 0 100px;
-  // margin-bottom: 60px;
+ 
 }
 .section-title::after {
   content: "";

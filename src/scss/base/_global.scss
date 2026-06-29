@@ -1,0 +1,20 @@
+@use "variables" as *;
+
+
+
+html {
+  scroll-padding-top: 90px;
+}
+
+body {
+  min-width: 320px;
+}
+
+main {
+  overflow: hidden;
+}
+
+::selection {
+  background: $color-secondary;
+  color: $color-white;
+}

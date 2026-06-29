@@ -39,8 +39,9 @@
   &__link {
     padding: 10px 18px;
     font-size: $font-size-m;
+    color:$color-white;
     border-radius: $radius-md;
-    transition: 0.3s ease;
+    transition: $transition-base;
     &:hover {
       color: $color-primary;
       background: $color-secondary;
