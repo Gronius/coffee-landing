@@ -1,0 +1,29 @@
+@use "../base/variables" as *;
+
+.form {
+  width: 100%;
+
+  &__input {
+    width: 100%;
+    height: 50px;
+    margin-bottom: 16px;
+    padding: 12px;
+
+    border: 1px solid $color-medium-grey;
+    border-radius: $radius-sm;
+    outline: none;
+
+    background-color: $color-white;
+
+    transition: border-color $transition-base;
+
+    &:focus {
+      border-color: $color-secondary;
+    }
+  }
+
+  &__textarea {
+    min-height: 120px;
+    resize: vertical;
+  }
+}

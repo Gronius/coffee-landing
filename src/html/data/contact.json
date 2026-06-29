@@ -1,0 +1,26 @@
+[
+  {
+    "icon": "fa-solid fa-location-crosshairs",
+    "text": "123 Campsite Avenue, Wilderness, CF 98745"
+  },
+  {
+    "icon": "fa-regular fa-envelope",
+    "text": "info@coffeeshopwebsite.com"
+  },
+  {
+    "icon": "fa-solid fa-phone",
+    "text": "(123) 456-7890"
+  },
+  {
+    "icon": "fa-regular fa-clock",
+    "text": "Monday – Friday: 9:00 AM – 5:00 PM"
+  },
+  {
+    "icon": "fa-regular fa-clock",
+    "text": "Sunday: Closed"
+  },
+  {
+    "icon": "fa-solid fa-globe",
+    "text": "www.nadiiaweb.com"
+  }
+]

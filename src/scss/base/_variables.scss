@@ -32,4 +32,6 @@ $container-width: 1300px;
 $font-family-base: "Poppins", sans-serif;
 $font-family-accent: "Miniver", sans-serif;
 
-$transition-base: all 0.3s;
+$transition-fast: .2s ease;
+$transition-base: .3s ease;
+$transition-slow: .5s ease;
