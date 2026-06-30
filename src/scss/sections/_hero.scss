@@ -1,5 +1,5 @@
-@use '../base/variables' as *;
-/* hero section styling*/
+@use "../base/variables" as *;
+@use "../utilities" as *;
 
 .hero {
   min-height: 100vh;
@@ -20,6 +20,7 @@
   &__subtitle {
     margin-top: 8px;
     max-width: 70%;
+    line-height: 1.2;
     font-size: $font-size-xl;
     font-weight: $font-weight-semibold;
   }
@@ -27,6 +28,7 @@
     max-width: 70%;
     margin: 24px 0 40px;
     font-size: $font-size-m;
+    line-height: 1.2;
   }
   &__actions {
     display: flex;
@@ -56,13 +58,52 @@
   &__image-wrapper {
     max-width: 500px;
     margin-right: 30px;
-    &--img{
-       width: 100%;
+    &--img {
+      width: 100%;
     }
-
   }
 
   &__details {
     padding-left: 20px;
   }
 }
+
+
+// ==========================
+// Tablet
+// ==========================
+
+@include tablet {
+  .hero {
+    &__content {
+      gap: 50px;
+      text-align: center;
+      padding: 30px 20px 20px;
+      flex-direction: column-reverse;
+      justify-content: center;
+    }
+    &__details {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      padding-left: 0px;
+    }
+    &__title {
+      font-size: 1.8rem;
+    }
+    &__subtitle {
+      max-width: 100%;
+      font-size: 1.5rem;
+    }
+    &__description {
+      max-width: 100%;
+      font-size: 1rem;
+    }
+
+    &__image-wrapper {
+      max-width: 270px;
+      margin-right: 0px;
+    }
+  }
+}
+

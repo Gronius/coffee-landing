@@ -6,8 +6,7 @@
 @use "./base/typography";
 @use "./base/global";
 
-@use "./utilities/mixins";
-@use "./utilities/animations";
+@use "./utilities";
 
 @use "./layout/container";
 @use "./layout/header";

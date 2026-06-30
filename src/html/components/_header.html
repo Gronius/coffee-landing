@@ -1,7 +1,6 @@
 <header class="header" id="home">
   <div class="container">
     <nav class="header__nav">
-
       <a href="#home" class="header__logo">
         <img
           src="./img/images/logo-coffee.png"
@@ -9,11 +8,18 @@
           class="header__logo-image"
           width="32"
           height="32"
-        >
+        />
         <span class="header__logo-text">Coffee</span>
       </a>
 
       <ul class="header__menu">
+        <button
+          class="header__toggle header__toggle--close"
+          aria-label="Close menu"
+        >
+          <i class="fa-solid fa-xmark"></i>
+        </button>
+
         <li class="header__item">
           <a href="#home" class="header__link">Home</a>
         </li>
@@ -41,22 +47,10 @@
 
       <button
         class="header__toggle header__toggle--open"
-        id="menu-open-button"
-        type="button"
         aria-label="Open menu"
       >
-        <i class="fas fa-bars"></i>
+        <i class="fa-solid fa-bars"></i>
       </button>
-
-      <button
-        class="header__toggle header__toggle--close"
-        id="menu-close-button"
-        type="button"
-        aria-label="Close menu"
-      >
-        <i class="fas fa-times"></i>
-      </button>
-
     </nav>
   </div>
 </header>

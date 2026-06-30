@@ -60,10 +60,20 @@
 //   }
 // });
 
+// import { initMobileMenu } from "./modules/mobile-menu";
 
+// document.addEventListener("DOMContentLoaded", () => {
+//   initMobileMenu();
+// });
 
+// import { initTestimonialsSwiper } from "./modules/swiper-testimonials";
+
+// document.addEventListener("DOMContentLoaded", () => {
+//   initTestimonialsSwiper();
+// });
+
+import { initMobileMenu } from "./modules/mobile-menu";
 import { initTestimonialsSwiper } from "./modules/swiper-testimonials";
 
-document.addEventListener("DOMContentLoaded", () => {
-  initTestimonialsSwiper();
-});
+initMobileMenu();
+initTestimonialsSwiper();
